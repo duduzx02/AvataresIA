@@ -4,7 +4,7 @@ import com.duai.duai.domain.exception.AvatarNotFoundException;
 import com.duai.duai.domain.model.Avatar;
 import com.duai.duai.domain.ports.AvatarRepository;
 
-public record AskChampionUseCase(AvatarRepository repository) {
+public record AskAvatarUseCase(AvatarRepository repository) {
 
     public String askAvatar(Long avatarId, String question){
         Avatar avatar = repository.findById(avatarId).orElseThrow(() -> new AvatarNotFoundException(avatarId));
