@@ -18,4 +18,6 @@ public class DuaiApplication {
 		return new ListAvatarUseCase(avatarRepository);
 	}
 
+
+
 }
