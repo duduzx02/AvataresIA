@@ -9,5 +9,5 @@ import java.util.Optional;
 public interface AvatarRepository {
     List<Avatar> findAll();
 
-    Optional<Avatar> findById();
+    Optional<Avatar> findById(Long id);
 }
