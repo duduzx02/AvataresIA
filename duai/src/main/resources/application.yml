@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: duai
+  datasource:
+    url: jdbc:h2:mem:duai
+    drive-class-name: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+        enabled: true
