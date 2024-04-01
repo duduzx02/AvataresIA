@@ -1,7 +1,7 @@
-package com.duai.duai.domain.exception;
+package com.duai.domain.exception;
 
 public class AvatarNotFoundException extends RuntimeException{
     public AvatarNotFoundException(Long avatarId){
-        super("Avatar %d not found".formatted(avatarId));
+        super("Champion %d not found.".formatted(avatarId));
     }
 }

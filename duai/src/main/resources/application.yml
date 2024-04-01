@@ -10,6 +10,9 @@ spring:
     console:
         enabled: true
 
+generative-ai:
+  provider: ${GENERATIVE_AI_PROVIDER:GEMINI}
+
 gemini:
   base-url: https://generativelanguage.googleapis.com
   api-key: ${GEMINI_API_KEY}

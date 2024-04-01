@@ -1,7 +1,7 @@
-package com.duai.duai.application;
+package com.duai.application;
 
-import com.duai.duai.domain.model.Avatar;
-import com.duai.duai.domain.ports.AvatarRepository;
+import com.duai.domain.model.Avatar;
+import com.duai.domain.ports.AvatarRepository;
 
 import java.util.List;
 

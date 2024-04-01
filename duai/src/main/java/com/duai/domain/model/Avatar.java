@@ -1,10 +1,10 @@
-package com.duai.duai.domain.model;
+package com.duai.domain.model;
 
 public record Avatar(
-        Long id, String name,
+        Long id,
+        String name,
         String lore
 ) {
-
     public String generateContextByQuestion(String question){
         return """
                 Pergunta: %s
@@ -12,5 +12,4 @@ public record Avatar(
                 Lore (História): %s
                 """.formatted(question, this.name, this.lore);
     }
-
 }
